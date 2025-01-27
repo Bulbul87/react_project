@@ -1,6 +1,8 @@
 
 import './App.css'
-
+import Header from './component/header'
+import Footer from './component/footer'
+import About from './component/about'
 function App() {
 
 
@@ -8,7 +10,10 @@ function App() {
     <>
      
       <div>
-        <h1>this is git test project </h1>
+        <h1>THIS IS TESTING PROJECT  </h1>
+           <Header/>
+           <Footer/>
+           <About/>
       </div>
     </>
   )

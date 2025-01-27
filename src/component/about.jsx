@@ -2,7 +2,7 @@ import React from 'react'
 
 const about = () => {
   return (
-    <div>about component</div>
+    <div style={{backgroundColor:'blue', color:'white'} }>about component</div>
   )
 }
 
